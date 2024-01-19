@@ -1,0 +1,9 @@
+package EPICS;
+
+option java_package = "org.example.PB";
+option java_outer_classname = "Event";
+
+
+message ScalarInt {
+  required uint32 value = 1;
+}
